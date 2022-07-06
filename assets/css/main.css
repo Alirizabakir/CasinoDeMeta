@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "glacial_indifferencebold";
+  src: local("glacial_indifferencebold"),
+    url("../../static/fonts/glacialindifference-bold-webfont.woff")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "glacial_indifferencebold2";
+  src: local("glacial_indifferencebold2"),
+    url("../../static/fonts/glacialindifference-bold-webfont.woff2")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "glacial_indifferenceregular";
+  src: local("glacial_indifferencebold"),
+    url("../../static/fonts/glacialindifference-regular-webfont.woff")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "glacial_indifferenceregular2";
+  src: local("glacial_indifferencebold2"),
+    url("../../static/fonts/glacialindifference-regular-webfont.woff2")
+      format("truetype");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f3f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
